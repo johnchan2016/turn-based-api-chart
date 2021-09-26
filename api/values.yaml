@@ -1,0 +1,47 @@
+namespace: turn-based-dev
+
+labels:
+  env: dev
+  tier: backend
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "1.20.1"
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+requests:
+  memory: "64Mi"
+  cpu: "128m"
+limits:
+  memory: "128Mi"
+  cpu: "256m"
+
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  annotations: 
+    nginx.ingress.kubernetes.io/rewrite-target: /
+  hosts:
+  - host: api-ingress-dev.local
+    paths:
+    - pathType: Prefix
+      path: "/"
+      backend:
+        service:
+          name: api-service-dev
+          port:
+            number: 80
+  tlsEnabled: false              
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
