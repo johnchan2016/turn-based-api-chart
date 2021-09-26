@@ -3,7 +3,7 @@ entries:
   api:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2021-09-26T21:11:45.9524008+08:00"
+    created: "2021-09-26T21:13:28.3284008+08:00"
     description: A Helm chart for Api
     digest: 4404e94404b573b35adfe1417053569976f24b1dab562da39f35941d5d150b47
     name: api
@@ -13,7 +13,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.1-dev
-    created: "2021-09-26T21:11:45.9514008+08:00"
+    created: "2021-09-26T21:13:28.3264008+08:00"
     description: A Helm chart for Api
     digest: baa140b84f0e3c46dd7caa7bd207dad239e218c7cd5a5a0d4b1c3178385574a9
     name: api
@@ -23,7 +23,7 @@ entries:
     version: 1.0.1-dev
   - apiVersion: v2
     appVersion: 1.0.0-dev.202109261921
-    created: "2021-09-26T21:11:45.9484008+08:00"
+    created: "2021-09-26T21:13:28.3264008+08:00"
     description: A Helm chart for Api
     digest: 57e2dc5544d6cf05f3d4f5f15829aff2efb26ed49d72009ae4a474fbd403e3ff
     name: api
@@ -33,7 +33,7 @@ entries:
     version: 1.0.0-dev.202109261921
   - apiVersion: v2
     appVersion: 1.0.0-dev.202109261826
-    created: "2021-09-26T21:11:45.9474008+08:00"
+    created: "2021-09-26T21:13:28.3254008+08:00"
     description: A Helm chart for Api
     digest: dfcb59e4a0322b7a4e4d79d0b5e526d491cc6b713afc784bbd0dd413772cc93a
     name: api
@@ -43,7 +43,7 @@ entries:
     version: 1.0.0-dev.202109261826
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-26T21:11:45.9474008+08:00"
+    created: "2021-09-26T21:13:28.3254008+08:00"
     description: A Helm chart for Api
     digest: 64e9502a45914d3a3d7d09815255dafc915c1b0da6bc1f02aa937ffbfa3121cc
     name: api
@@ -51,4 +51,14 @@ entries:
     urls:
     - https://johnchan2016.github.io/turn-based-api-chart/api-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-26T21:11:45.9464008+08:00"
+  - apiVersion: v2
+    appVersion: 1.0.1.202109262113
+    created: "2021-09-26T21:13:28.3284008+08:00"
+    description: A Helm chart for Api
+    digest: 4088ef25e778b6ae5cd76f94cac92751837000bf93ea00eb575eb9f9751ab3a5
+    name: api
+    type: application
+    urls:
+    - https://johnchan2016.github.io/turn-based-api-chart/api-1.0.1.202109262113.tgz
+    version: 1.0.1.202109262113
+generated: "2021-09-26T21:13:28.3244008+08:00"
